@@ -10,7 +10,7 @@ from PyQt5.QtCore import Qt
 class BookManager(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Manajemen Data Buku - Week 10")
+        self.setWindowTitle("Manajemen Data Buku")
         self.resize(800, 500)
         self.conn = sqlite3.connect("books.db")
         self.create_table()
